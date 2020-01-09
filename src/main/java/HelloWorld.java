@@ -1,27 +1,14 @@
+import java.io.File;
+import java.io.IOException;
 
 public class HelloWorld {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		System.out.println("Hello Ashwini");
-		System.out.println("Hello Dnyanda Kulkarni");
+		System.out.println("Hello Ashwini");
 		
-			     File file = new File("C:\\newfile.txt");
+		File file = new File("C:\\newfile.txt");
 		file.createNewFile();
-	     /*If file gets created then the createNewFile() 
-	      * method would return true or if the file is 
-	      * already present it would return false
-	      */
-           /*  boolean fvar = file.createNewFile();
-	     if (fvar){
-	          System.out.println("File has been created successfully");
-	     }
-	     else{
-	          System.out.println("File already present at the specified location");
-	     }
-    	} catch (IOException e) {
-    		System.out.println("Exception Occurred:");
-	        e.printStackTrace();
-	  }*/
 	}
 
 }
