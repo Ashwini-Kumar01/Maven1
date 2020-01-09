@@ -6,6 +6,7 @@ public class HelloWorld {
 		System.out.println("Hello Dnyanda Kulkarni");
 		
 			     File file = new File("C:\\newfile.txt");
+		file.createNewFile();
 	     /*If file gets created then the createNewFile() 
 	      * method would return true or if the file is 
 	      * already present it would return false
