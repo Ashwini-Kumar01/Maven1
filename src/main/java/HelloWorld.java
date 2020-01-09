@@ -10,7 +10,7 @@ public class HelloWorld {
 	      * method would return true or if the file is 
 	      * already present it would return false
 	      */
-             boolean fvar = file.createNewFile();
+           /*  boolean fvar = file.createNewFile();
 	     if (fvar){
 	          System.out.println("File has been created successfully");
 	     }
@@ -20,7 +20,7 @@ public class HelloWorld {
     	} catch (IOException e) {
     		System.out.println("Exception Occurred:");
 	        e.printStackTrace();
-	  }
+	  }*/
 	}
 
 }
